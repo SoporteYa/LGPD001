@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "224962576531",
+    "firebase_url": "https://app-lgpd-bded4-default-rtdb.firebaseio.com",
+    "project_id": "app-lgpd-bded4",
+    "storage_bucket": "app-lgpd-bded4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224962576531:android:f4ed92878feac365d4cd66",
+        "android_client_info": {
+          "package_name": "com.example.applgpd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "224962576531-8gnn7l96lqid4lkrlvnr5q8sgfadbba8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIVrYOTahbBYUeK2lWC87lSo9NxZqYBbE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "224962576531-8gnn7l96lqid4lkrlvnr5q8sgfadbba8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224962576531:android:49b6016d200c747ad4cd66",
+        "android_client_info": {
+          "package_name": "es.informaticoya.LGPD_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "224962576531-8gnn7l96lqid4lkrlvnr5q8sgfadbba8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIVrYOTahbBYUeK2lWC87lSo9NxZqYBbE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "224962576531-8gnn7l96lqid4lkrlvnr5q8sgfadbba8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224962576531:android:930707907aa4c71dd4cd66",
+        "android_client_info": {
+          "package_name": "es.informaticoya.lgpd001"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "224962576531-8gnn7l96lqid4lkrlvnr5q8sgfadbba8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIVrYOTahbBYUeK2lWC87lSo9NxZqYBbE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "224962576531-8gnn7l96lqid4lkrlvnr5q8sgfadbba8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

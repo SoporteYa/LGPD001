@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LGPD001</string>
+    <string name="email">Email</string>
+    <string name="password">Contrasena</string>
+    <string name="Repeat_Password">Repetir Contrasena</string>
+    <string name="Name">Nombre</string>
+</resources>
