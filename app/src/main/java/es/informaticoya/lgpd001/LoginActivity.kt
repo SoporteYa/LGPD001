@@ -27,18 +27,21 @@ class LoginActivity : AppCompatActivity() {
         auth = FirebaseAuth.getInstance()
 
 
-        binding.btnLogin.setOnClickListener {
-
-            binding.btnLogin.setOnClickListener {
-
-                if (binding.etEmail.text.isEmpty() && binding.etPassword.text.isEmpty()) {
-                    Toast.makeText(this, "Rellenar datos", Toast.LENGTH_SHORT).show()
-                } else {
-                    authentication()
-                }
+        binding.btnSignIn.setOnClickListener {
+            if (binding.etEmail.text.isEmpty() && binding.etPassword.text.isEmpty()) {
+                Toast.makeText(this, "Rellenar datos", Toast.LENGTH_SHORT).show()
+            } else {
+                authentication()
+                startActivity(Intent(this, SignUpActivity::class.java))
             }
         }
+
+        binding.btnLoginIn.setOnClickListener {
+            startActivity(Intent(this, SignUpActivity::class.java))
+        }
     }
+
+
 
     private fun authentication() {
         auth.createUserWithEmailAndPassword(
@@ -46,11 +49,10 @@ class LoginActivity : AppCompatActivity() {
             binding.etPassword.text.toString())
             .addOnCompleteListener(this) {
                 if (it.isSuccessful) {
-                    finish()
-                    startActivity(Intent(this, SignUpActivity::class.java))
-                    Toast.makeText(this, "Bienvenido", Toast.LENGTH_SHORT).show()
-                } else {
-                    Toast.makeText(this, "Registro no realizado", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, "Bienvenido", Toast.LENGTH_LONG).show()
+                }else {
+                    val user = auth.currentUser
+                    user!!.sendEmailVerification()
                 }
             }
         }
@@ -60,7 +62,6 @@ class LoginActivity : AppCompatActivity() {
         val user = auth.currentUser
         if (user != null) {
             startActivity(Intent(this, SignUpActivity::class.java))
-            finish()
         }
       }
     }
